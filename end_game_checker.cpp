@@ -15,6 +15,7 @@ bool End_game_checker()
 	else if (2 == Map[0][0] && 2 == Map[0][1] && 2 == Map[0][2])//satr aval y
 	{
 		cout << "o barande shod\n";
+		scorecounter(1, 0);
 		return true;
 	}
 	else if (1 == Map[1][0] && 1 == Map[1][1] && 1 == Map[1][2])//satr 2 x
@@ -26,6 +27,7 @@ bool End_game_checker()
 	else if (2 == Map[1][0] && 2 == Map[1][1] && 2 == Map[1][2])//satr 2 y
 	{
 		cout << "o barande shod\n";
+		scorecounter(1, 0);
 		return true;
 	}
 	else if (1 == Map[2][0] && 1 == Map[2][1] && 1 == Map[2][2])//satr 3 x
@@ -37,7 +39,7 @@ bool End_game_checker()
 	else if (2 == Map[2][0] && 2 == Map[2][1] && 2 == Map[2][2])//satr 3 y
 	{
 		cout << "o barande shod\n";
-
+		scorecounter(1, 0);
 		return true;
 	}
 	//******************************************************************

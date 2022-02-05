@@ -1,9 +1,9 @@
 #include <iostream>
 #include "Header.h"
 using namespace std;
-
+//bara avalin bar ke in fuction seda zade mishavad az khat 29 shoro mishavad
 void AI(short int xo)//x = 1 , O = 2
-{
+{// xo neshon mide ai dare naghsh x bazi mikone ya o. whtasAIplayingAgainst neshon mide ai dare dar moghabel ki bazi mikone
 
 	static short int whtasAIplayingAgainst;
 	if (xo == 0)

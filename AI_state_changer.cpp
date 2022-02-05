@@ -5,7 +5,7 @@ extern bool is_AI_on;
 
 void AI_state_changer()
 {
-	cout << "mikhahid ke AI bhaton bazi konad?\ntype T ya t bara bale type F ya f :";
+	cout << "mikhahid ke AI bhaton bazi konad?\ntype T ya t bara bale type F ya f bara khair:";
 	char s[3];
 	cin >> s;
 

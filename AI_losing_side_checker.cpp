@@ -16,7 +16,7 @@ int AI_losing_side_checker(short int xo) //return -1 if ai is not losing
 		{
 			return 8 - satr * 3;
 		}
-		if (Map[satr][1] == xo && Map[satr][2] == xo && Map[satr][1] == 0)//0xx
+		if (Map[satr][1] == xo && Map[satr][2] == xo && Map[satr][0] == 0)//0xx
 		{
 			return 7 - satr * 3;
 		}
